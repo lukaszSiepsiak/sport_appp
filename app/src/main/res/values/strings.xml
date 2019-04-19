@@ -1,0 +1,164 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">FitProjekt</string>
+    <string name="spinner_title">Wybierz</string>
+    <string name="rulesText">Akceptuję Regulamin, Politykę Prywatności oraz wyrażam zgodę na otrzymywanie wiadomości. *</string>
+    <string name="rules">*pole obowiązkowe</string>
+    <string name="registerText">Załóż konto</string>
+    <string-array name="sex">
+        <item>Mężczyzna</item>
+        <item>Kobieta</item>
+    </string-array>
+    <string-array name="age">
+        <item>18-25</item>
+        <item>26-40</item>
+        <item>40+</item>
+    </string-array>
+    <string-array name="province">
+        <item>Wybierz..</item>
+        <item>Mazowieckie</item>
+        <item>Kujawsko-Pomorskie</item>
+        <item>Lubelskie</item>
+        <item>Lubuskie</item>
+        <item>Łódzkie</item>
+        <item>Małopolskie</item>
+        <item>Dolnośląskie</item>
+        <item>Opolskie</item>
+        <item>Podkarpackie</item>
+        <item>Podlaskie</item>
+        <item>Pomorskie</item>
+        <item>Śląskie</item>
+        <item>Świętokrzyskie</item>
+        <item>Warmińsko-Mazurskie</item>
+        <item>Wielkopolskie</item>
+        <item>Zachodniopomorskie</item>
+    </string-array>
+    <string-array name="city">
+        <item>Warszawa</item>
+        <item>Kraków</item>
+        <item>Łódź</item>
+        <item>Wrocław</item>
+        <item>Poznań</item>
+        <item>Gdańsk</item>
+        <item>Szczecin</item>
+        <item>Bydgoszcz</item>
+        <item>Lublin</item>
+        <item>Katowice</item>
+        <item>Białystok</item>
+        <item>Gdynia</item>
+        <item>Częstochowa</item>
+        <item>Radom</item>
+        <item>Sosnowiec</item>
+        <item>Toruń</item>
+        <item>Kielce</item>
+        <item>Rzeszów</item>
+        <item>Gliwice</item>
+        <item>Zabrze</item>
+        <item>Olsztyn</item>
+        <item>Bielsko-Biała</item>
+        <item>Bytom</item>
+        <item>Ruda Śląska</item>
+        <item>Rybnik</item>
+        <item>Zielona Góra</item>
+        <item>Tychy</item>
+        <item>Gorzów Wielkopolski</item>
+        <item>Dąbrowa Górnicza</item>
+        <item>Płock</item>
+    </string-array>
+    <string-array name="discipline">
+        <item>Aerobik</item>
+        <item>Akrobatyka sportowa</item>
+        <item>Armwrestling</item>
+        <item>Bieganie</item>
+        <item>Body pump</item>
+        <item>Bodybuilding</item>
+        <item>Boks</item>
+        <item>Capoeira</item>
+        <item>Crossfit</item>
+        <item>Dance aerobik</item>
+        <item>Dietetyka</item>
+        <item>Fat burning</item>
+        <item>Fizjoterapia</item>
+        <item>Gimnastyka</item>
+        <item>HIIT</item>
+        <item>Joga</item>
+        <item>Judo</item>
+        <item>Jujutsu</item>
+        <item>Karate</item>
+        <item>Kolarstwo</item>
+        <item>Koszykówka</item>
+        <item>Kravmaga</item>
+        <item>Kulturystyka</item>
+        <item>Lekkoatletyka</item>
+        <item>MMA</item>
+        <item>Muay Thai</item>
+        <item>Parkour</item>
+        <item>Pilates</item>
+        <item>Piłka nożna</item>
+        <item>Piłka ręczna</item>
+        <item>Pływanie</item>
+        <item>Pole dane</item>
+        <item>Piłka siatkowa</item>
+        <item>Spinning</item>
+        <item>Street Workout</item>
+        <item>Stretching</item>
+        <item>Tabata</item>
+        <item>Taekwondo</item>
+        <item>Taniec</item>
+        <item>Tenis</item>
+        <item>Tenis stołowy</item>
+        <item>Trener Personalny</item>
+        <item>Trening funkcjonalny</item>
+        <item>Trening obwodowy</item>
+        <item>TRX</item>
+        <item>Wspinaczka</item>
+        <item>Zumba</item>
+    </string-array>
+    <string-array name="objectOffer">
+        <item>Aqua aerobic</item>
+        <item>Badminton</item>
+        <item>Basen</item>
+        <item>Boiska sportowe</item>
+        <item>Boks</item>
+        <item>Crossfit</item>
+        <item>Indoor cykling</item>
+        <item>Jaccuzzi</item>
+        <item>Jazdy konne</item>
+        <item>Joga</item>
+        <item>Lodowisko</item>
+        <item>Łaźnie</item>
+        <item>Masaż</item>
+        <item>Orlik</item>
+        <item>Pole dance</item>
+        <item>Sale do zajęć ruchowych</item>
+        <item>Sauna</item>
+        <item>Ścianka wspinaczkowa</item>
+        <item>Siłownia</item>
+        <item>SpaWellness</item>
+        <item>Squash</item>
+        <item>Sztuki Walki</item>
+        <item>Taniec</item>
+        <item>Trampoliny</item>
+        <item>Treningi personalne</item>
+        <item>Zabiegi na ciało</item>
+        <item>Zajęcia dla dzieci</item>
+        <item>Zajęcia dla kobiet w ciąży</item>
+        <item>Zajęcia fitness</item>
+        <item>Zajęcia grupowe</item>
+        <item>Zajęcia indywidualne</item>
+        <item>Zajęcia rehabilitacyjne</item>
+        <item>Zajęcia w plenerze</item>
+    </string-array>
+    <string name="emailerr">Wpisz poprawny adres email</string>
+    <string name="passerr">Hasło musi zawierać 8 znaków w tym: jedną cyfrę, jeden znak specjalny "%^#@*", jedną małą i wielką litere</string>
+    <string name="nameerr">Wpisz poprawne imię</string>
+    <string name="surnameerr">Wpisz poprawne nazwisko</string>
+    <string name="addresserr">Wpisz poprawny adres</string>
+    <string name="err_zipcode">Wpisz poprawny kod pocztowy</string>
+    <string name="ruleserr">Musisz zaakceptować regulamin</string>
+    <string name="passwordReminder">Przypomnij hasło</string>
+    <string name="cityerr">Wpisz poprawną nazwę miasta</string>
+    <string name="streeterr">Wpisz poprawną nazwę ulicy</string>
+    <string name="provinceerr">Wpisz poprawną nazwę województwa</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"></CalendarView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/line1"
+        android:orientation="vertical"
+        android:layout_below="@+id/calendarView"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/startHourButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/greenbutton"
+            android:fontFamily="monospace"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Godzina rozpoczęcia"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/startHourTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="12:12"
+            android:layout_below="@id/startHourButton"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/endHourButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/startHourButton"
+            android:background="@drawable/greenbutton"
+            android:fontFamily="monospace"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Godzina zakończenia"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/endHourTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startHourButton"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:text="13:13"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bookUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="ZAREZERWUJ TERMIN"
+        android:fontFamily="monospace"
+        android:background="@drawable/greenbutton"
+        android:textColor="@android:color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/rezervationList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookUpButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/greenbutton"
+        android:fontFamily="monospace"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Lista rezerwacji"
+        android:textColor="@android:color/white" />
+
+
+
+</RelativeLayout>
+</ScrollView>

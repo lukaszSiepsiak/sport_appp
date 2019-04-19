@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.activities.AccountTypeActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/chooseTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz typ konta:"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="monospace"/>
+    <RadioGroup
+        android:id="@+id/accountType"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chooseTypeLabel"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <RadioButton
+            android:id="@+id/userRadioButton"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Użytkownik"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/trainerRadioButton"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trener"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"/>
+        <RadioButton
+            android:id="@+id/objectRadioButton"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Obiekt"
+            android:fontFamily="monospace"
+            android:textColor="@android:color/black"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/greenbutton"
+        android:enabled="false"
+        android:fontFamily="monospace"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Wybierz"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+</ScrollView>

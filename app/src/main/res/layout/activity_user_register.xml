@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/textViewUserRegisterEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Adres e-mail"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextUserRegisterEmail"
+        android:hint="Wpisz..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewUserRegisterEmail"
+        android:layout_alignBaseline="@id/textViewUserRegisterEmail"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textViewUserRegisterPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUserRegisterEmail"
+        android:padding="10dp"
+        android:text="Hasło"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/editTextUserRegisterPassword"
+        android:hint="Wpisz..."
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewUserRegisterPassword"
+        android:layout_alignBaseline="@id/textViewUserRegisterPassword"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/textViewUserRegisterSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUserRegisterPassword"
+        android:padding="10dp"
+        android:text="Wybierz płeć*"
+        android:fontFamily="monospace"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/spinnerUserRegisterSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewUserRegisterSex"
+        android:layout_marginLeft="-1dp"
+        android:layout_toRightOf="@id/textViewUserRegisterSex"
+        android:entries="@array/sex"
+        android:fontFamily="monospace"
+        android:prompt="@string/spinner_title"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/black" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxUserRules"
+        android:layout_below="@id/textViewUserRegisterSex"
+        android:text="@string/rulesText"/>
+    <TextView
+        android:id="@+id/textViewUserRegisterRulesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxUserRules"
+        android:text="@string/rules"
+        />
+
+    <Button
+        android:id="@+id/registerUserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewUserRegisterRulesText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/greenbutton"
+        android:fontFamily="monospace"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/registerText"
+        android:textColor="@color/black" />
+</RelativeLayout>
+</ScrollView>
